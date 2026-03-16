@@ -11,10 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "CookieOvenWebtoon",
-            targets: [
-                "CookieOvenWebtoon",
-                "CookieOvenWebtoonTarget",
-            ]
+            targets: ["CookieOvenWebtoon", "_CookieOvenWebtoonTarget"]
         )
     ],
     dependencies: [
@@ -27,11 +24,11 @@ let package = Package(
             checksum: checksum
         ),
         .target(
-            name: "CookieOvenWebtoonTarget",
+            name: "_CookieOvenWebtoonTarget",
             dependencies: [
                 .product(name: "AdisonOfferwallSDK", package: "adison-offerwall-ios-sdk")
             ],
-            path: "Sources"
+            path: "Sources/_Stub"
         ),
     ]
 )
