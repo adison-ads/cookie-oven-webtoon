@@ -3,8 +3,8 @@
 import PackageDescription
 
 let baseURL = "https://github.com/adison-ads/cookie-oven-webtoon"
-let artifactVer = "3.6.0"
-let checksum = "ea301334b8bcc0ebae62b4210472986f0184460b6d84f5eeaade73d2aff993ba"
+let artifactVer = "3.7.0"
+let checksum = "90491392219fcd3e676780e070beba73356a876f6a74e962dfad3f43f973dcfb"
 
 let package = Package(
     name: "CookieOvenWebtoon",
@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "4.6.0")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "4.7.0")
     ],
     targets: [
         .target(
