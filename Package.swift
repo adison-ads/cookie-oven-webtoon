@@ -3,8 +3,8 @@
 import PackageDescription
 
 let baseURL = "https://github.com/adison-ads/cookie-oven-webtoon"
-let artifactVer = "3.7.6"
-let checksum = "93bec1e8fc329b9efd671031d067ebfddb474475f8780db6d67b4875260862a0"
+let artifactVer = "3.7.8"
+let checksum = "6525d19b282ed4a9bc89cad33d11f15048aeda68f6d63c9a77a968dbaa3d0e53"
 
 let package = Package(
     name: "CookieOvenWebtoon",
